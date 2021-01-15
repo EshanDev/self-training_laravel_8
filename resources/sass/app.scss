@@ -6,3 +6,9 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+// Media Query
+@import './utils/mediaQuery';
+
+// Display Element
+@import './layouts/display';

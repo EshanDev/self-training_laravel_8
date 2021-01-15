@@ -1,0 +1,14 @@
+// Mixin
+@import '../mixins';
+
+
+// Display
+
+.only-sm{
+    display: none;
+    @include breakpoint(320px, min){
+        @include breakpoint(575px, max){
+            display: block !important;
+        }
+    }
+}
